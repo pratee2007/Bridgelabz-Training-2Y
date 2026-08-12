@@ -8,7 +8,7 @@ public class lc1295 {
     static int findNumbers(int[] nums) {
         int number=0;
         for(int num: nums){
-            int count=(int)(Math.log10(num))+1; //this line will find the digits of a no
+            double count=(double)(Math.log10(num))+1; //this line will find the digits of a no
             if(count%2==0) number++;
         }
         return number;
