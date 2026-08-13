@@ -1,0 +1,18 @@
+# Java
+*.class
+out/
+bin/
+*.log
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+
+# Maven/Gradle
+target/
+build/
+
+# OS
+Thumbs.db
+.DS_Store
